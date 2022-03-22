@@ -105,7 +105,7 @@ ul {
   padding-bottom: 32px;
 
   text-decoration: none;
-  color: #212121;
+  color: var(--primary-text-color);
 }
 
 .nav__link:hover,
@@ -136,11 +136,11 @@ ul {
   height: 4px;
   border-radius: 2px;
 
-  background-color: #2196f3;
+  background-color: var(--accent-color);
 }
 
 .nav__link--animation:hover::after {
-  background-color: #2196f3;
+  background-color: var(--accent-color);
 }
 
 /* Auth nav */
@@ -186,13 +186,13 @@ ul {
 
 .auth-nav__link:hover,
 .auth-nav__link:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 .auth-nav__link:hover .auth-nav__icon,
 .auth-nav__icon:focus {
-  color: #2196f3;
-  fill: #2196f3;
+  color: var(--accent-color);
+  fill: var(--accent-color);
 }
 
 .auth-nav__icon{
@@ -206,7 +206,7 @@ ul {
 }
 
 .auth-nav__icon:hover .auth-nav__icon:focus {
-  fill: #2196f3;
+  fill: var(--accent-color);
 }
 
 /* hero */
@@ -295,7 +295,7 @@ ul {
 .modal {
   width: 528px;
   height: 581px;
-  background-color: #fff;
+  background-color: var(--white-color);
 
   position: relative;
 
@@ -303,7 +303,7 @@ ul {
   left: 50%;
   transform: translate(-50%, -50%);
 
-  background: #ffffff;
+  background: var(--white-color);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
@@ -324,11 +324,11 @@ ul {
   border-radius: 50%;
   border: 1px solid rgba(0, 0, 0, 0.1);
   box-sizing: border-box;
-  background: #ffffff;
+  background: var(--white-color);
 }
 
 .modal__button:hover{
-  fill: #2196f3;
+  fill: var(--accent-color);
 }
 
 .modal__icon{
@@ -357,7 +357,7 @@ ul {
   line-height: 1.15;
   letter-spacing: 0.03em;
 
-  color: #212121;
+  color: var(--primary-text-color);
 }
 
 .form__field{
@@ -398,7 +398,7 @@ ul {
 }
 
 .placeholder:focus{
-  border-color: #2196f3;
+  border-color: var(--accent-color);
 }
 
 .form__input{
@@ -418,7 +418,7 @@ ul {
 }
 
 .form__input:focus{
-  border-color: #2196f3;
+  border-color: var(--accent-color);
 }
 
 .form__icon{
@@ -433,11 +433,11 @@ ul {
 }
 
 .form__icon:focus{
-  fill: #2196f3;
+  fill: var(--accent-color);
 }
 
 .form__input:focus ~ .form__icon {
-  fill: #2196f3;
+  fill: var(--accent-color)
 }
 
 .form-policy{
@@ -462,7 +462,7 @@ ul {
 
 .form-policy__checkbox:checked ~ .form-policy__icon{
   background-image: url(../icons/icon\ check.svg);
-  background-color: #2196f3;
+  background-color: var(--accent-color);
   background-size: contain;
   border: #212121;
 } 
@@ -474,7 +474,7 @@ ul {
   border: 2px solid #212121;
 
   border-radius: 2px;
-  fill: #FFFFFF;
+  fill: var(--white-color)
 
 }
 
@@ -485,7 +485,7 @@ ul {
 }
 
 .form-policy__link{
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 .form-policy__button{
@@ -506,8 +506,8 @@ ul {
   border-radius: 4px;
   cursor: pointer;
 
-  color: #FFFFFF;
-  background-color: #2196F3;
+  color: var(--white-color);
+  background-color: var(--accent-color);
 }
 
 /* section */
@@ -676,7 +676,7 @@ ul {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 
-  color: #ffffff;
+  color: var(--white-color);
   background-color: rgba(47, 48, 58, 0.8);
 }
 
@@ -727,7 +727,7 @@ ul {
 }
 
 .socials{
-  background-color: #ffffff;
+  background-color: var(--white-color);
   padding-top: 30px;
   padding-bottom: 30px;
   padding-left: 32px;
@@ -770,14 +770,14 @@ ul {
   height: 44px;
 
   border-radius: 50%;
-  background-color: #ffffff;
+  background-color: var(--white-color);
 
   transition: background-color var(--animation);
 }
 
 .socials__link:hover,
 .socials__link:focus {
-  background-color: #2196f3;
+  background-color: var(--accent-color);
 }
 
 .socials__icon{
@@ -788,7 +788,7 @@ ul {
 
 .socials__link:hover .socials__icon,
 .socials__icon:focus {
-  fill: #ffffff;
+  fill: var(--white-color);
 }
 
 /* Клиенты  */
@@ -842,7 +842,7 @@ ul {
 
 .clients-container__link:hover,
 .clients-container__link:focus {
-  fill: #2196f3;
+  fill: var(--accent-color);
 }
 
 .clients-container__link--border{
@@ -852,7 +852,7 @@ ul {
 }
 .clients-container__link--border:hover,
 .clients-container__link--border:focus {
-  border: 1px solid #2196f3;
+  border: 1px solid var(--accent-color);
 }
 
 /* Футер */
@@ -879,7 +879,7 @@ ul {
 }
 
 .address-container__link{
-  color: #ffffff;
+  color: var(--white-color);
   font-family: Raleway, sans-serif;
   letter-spacing: 0.03em;
   display: inline-block;
@@ -944,7 +944,7 @@ ul {
 }
 
 .socials-container__title{
-  color: #ffffff;
+  color: var(--white-color);
   margin: 0;
 
   margin-bottom: 20px;
@@ -985,18 +985,18 @@ ul {
 
 .socials-container__link:hover,
 .socials-container__link:focus {
-  background-color: #2196f3;
+  background-color: var(--accent-color);
 }
 
 .socials-container__icon{
-  fill: #ffffff;
+  fill: var(--white-color);
 
   transition: fill var(--animation);
 }
 
 .socials-container__link:hover .socials-container__icon,
 .socials-container__icon:focus {
-  color: #ffffff;
+  color: var(--white-color);
 }
 
 .footer-form{
@@ -1032,7 +1032,7 @@ ul {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 
-  color: #FFFFFF;
+  color: var(--white-color);
 }
 
 .footer-form__input{
@@ -1071,8 +1071,8 @@ ul {
   padding-left: 56px;
   letter-spacing: 0.06em;
 
-  color: #FFFFFF;
-  background: #2196F3;
+  color: var(--white-color);
+  background: var(--accent-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border: none;
   border-radius: 4px;
@@ -1084,7 +1084,7 @@ ul {
   margin-left: 10px;
   margin-top: 10px;
   
-  fill: #FFFFFF;
+  fill: var(--white-color);
 }
 
 /* Стили для portfolio */
@@ -1200,7 +1200,7 @@ ul {
 .portfolio-list__link{
   position: relative;
   display: block;
-  color: #ffffff;
+  color: var(--white-color);
   margin: 0;
   padding: 0;
   text-decoration: none;
@@ -1240,8 +1240,8 @@ ul {
   letter-spacing: 0.03em;
   padding: 63px 24px;
 
-  color: #ffffff;
-  background-color: #2196f3;
+  color: var(--white-color);
+  background-color: var(--accent-color);
 
   transition: top var(--animation);
 
@@ -1252,7 +1252,7 @@ ul {
   display: flex;
   flex-direction: column;
   padding: 20px 24px;
-  background-color: #ffffff;
+  background-color: var(--white-color);
   border: 1px solid #eeeeee;
   border-top: 0;
   box-sizing: border-box;
