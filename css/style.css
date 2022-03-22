@@ -510,18 +510,6 @@ ul {
   background-color: var(--accent-color);
 }
 
-/* section */
-
-.section-title {
-  color: var(--title-text-color);
-  margin-top: 0;
-  margin-bottom: 0;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.17;
-  text-align: center;
-}
-
 /* features */
 .section {
   letter-spacing: 0.03em;
